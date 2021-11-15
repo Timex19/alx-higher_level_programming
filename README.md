@@ -7,7 +7,7 @@ Module of **High-level programming** and **Python**, carried out during **Full S
 * `MySQL 5.7` (version 5.7.8-rc)
 * `MySQLdb`, version 1.3.10
 * `sqlalchemy`, version 1.2.5
-* Tested on Ubuntu 14.04 LTS
+* Tested on Ubuntu 20.04 LTS
 
 ## Projects
 All of the following folders are projects done during the studies:
