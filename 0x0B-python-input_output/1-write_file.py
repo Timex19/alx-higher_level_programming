@@ -1,14 +1,13 @@
 #!/usr/bin/python3
-"""
-file: 1-number_of_lines.py
+'''
+file: 3-write_file.py
 functions:
--> number_of_lines
-"""
+-> write_file
+'''
 
 
-def number_of_lines(filename=""):
-    """ returns the number of lines of a text file """
+def write_file(filename="", text=""):
+    ''' writes a string to a text file, returns number of chars written '''
 
-    with open(filename) as file:
-        lines = file.readlines()
-    return len(lines)
+    with open(filename, 'w', encoding="utf-8") as file:
+        return file.write(text)
