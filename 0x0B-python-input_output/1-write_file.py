@@ -1,18 +1,14 @@
 #!/usr/bin/python3
-""" Module that contains a function that returns the number of lines
-    of a text file
+"""
+file: 1-number_of_lines.py
+functions:
+-> number_of_lines
 """
 
 
 def number_of_lines(filename=""):
-    """ Function that reads from a file and prints its number of lines
-    Args:
-        filename: filename
-    Raises
-        Exception: when the file can be opened
-    """
-    n_lines = 0
-    with open(filename, 'r', encoding="utf-8") as f:
-        for line in f:
-            n_lines += 1
-    return n_lines
+    """ returns the number of lines of a text file """
+
+    with open(filename) as file:
+        lines = file.readlines()
+    return len(lines)
