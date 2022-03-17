@@ -1,3 +1,3 @@
 #!/bin/bash
 # send headers
-curl -s -H 'X-HelloSchool!-User-Id: 98' $1
+curl -s -H 'X-Hello School!-User-Id: 98' $1
