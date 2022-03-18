@@ -20,7 +20,7 @@ What you should learn from this project:
 ---
 
 ### [0. What's my status?](./0-hbtn_status.py)
-* Write a Python script that fetches https://intranet.hbtn.io/status
+* Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
 
 ### [1. Response header value](./1-hbtn_header.py)
@@ -36,7 +36,7 @@ What you should learn from this project:
 
 
 ### [4. What's my status?](./4-hbtn_status.py)
-* Write a Python script that fetches https://intranet.hbtn.io/status
+* Write a Python script that fetches https://alx-intranet.hbtn.io/status
 
 
 ### [5. Response header value](./5-hbtn_header.py)
