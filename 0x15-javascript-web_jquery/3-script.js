@@ -1,3 +1,3 @@
 $('DIV#red_header').click(() => {
-    $('HEADER').addClass('red');
+  $('HEADER').addClass('red');
 });
