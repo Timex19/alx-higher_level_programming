@@ -15,7 +15,7 @@ $(document).ready(function () {
   });
 
   $('#language_code').keypress(function (event) {
-    var keycode = (event.keyCode ? event.keyCode : event.which);
+    const keycode = (event.keyCode ? event.keyCode : event.which);
     if (keycode === 13) {
       const lang = $('#language_code').val();
       Hello(lang);
